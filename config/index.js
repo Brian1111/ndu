@@ -4,8 +4,7 @@ if (process.env.NODE_ENV == 'production') {
         host: process.env.host || "",
         AWS_ACCESS_KEY_ID: process.env.AWS_ACCESS_KEY_ID,
         AWS_SECRET_ACCESS_KEY : process.env.AWS_SECRET_ACCESS_KEY ,
-        S3_BUCKET: process.env.S3_BUCKET,
-        dbURL: process.env.dbURL
+        S3_BUCKET: process.env.S3_BUCKET
     }
 } else {
     // Offer dev stage settings and data
